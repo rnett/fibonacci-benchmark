@@ -37,7 +37,6 @@ fun benchmark(name: String) {
         fibTailrec(35)
     }
 
-    println("$name: Recursive: $fib, Tailrec: $fibInline")
-
+    println("$name:\tRecursive:\t$fib\tTailrec\t$fibInline")
 }
 ```
