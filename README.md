@@ -1,7 +1,7 @@
 
 To run benchmarks: `gradlew runAll -q`.
 
-<hr/>
+---
 
 My results (JVM 15, Node.js 15.8.0, Windows):
 ```
@@ -10,7 +10,7 @@ JVM:    Recursive:  31.1ms  Tailrec 19.9us
 Native: Recursive:  37.5ms  Tailrec 398ns
 ```
 
-<hr/>
+---
 
 Code: [Bench.kt](src/commonMain/kotlin/com/rnett/benchmark/Bench.kt):
 ```kotlin
